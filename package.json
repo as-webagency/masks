@@ -1,0 +1,29 @@
+{
+  "name": "masks",
+  "version": "1.0.0",
+  "description": "Landing Page - \"Медицинские маски\"",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-rename": "^2.0.0",
+    "gulp-tinypng-compress": "^1.2.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-minify": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as-webagency/masks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/as-webagency/masks/issues"
+  },
+  "homepage": "https://github.com/as-webagency/masks#readme"
+}
