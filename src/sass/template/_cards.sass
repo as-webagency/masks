@@ -1,0 +1,135 @@
+.cards
+    &__title
+        color: $black
+        font-weight: 900
+        text-transform: uppercase
+        font-size: 40px
+        line-height: 46px
+        text-align: center
+        margin: 63px 0 62px 14px
+        position: relative
+        span
+            display: block
+            font-weight: 500
+            color: $greyTitle
+            margin-left: 11px
+    &-blocks
+        +flex-wrap
+        justify-content: space-between
+        &__items
+            position: relative
+            margin-left: 15px
+.card-block
+    max-width: 360px
+    width: 100%
+    padding: 33px 0
+    background-color: $light
+    box-shadow: 13px 23px 40px rgba($black, 0.11)
+    border-radius: 20px
+    border: 1px solid $lightGrey  
+    &__title
+        color: $black
+        font-size: 20px
+        font-weight: bold
+        text-align: center
+        max-width: 230px
+        margin: 0 auto  
+        position: relative
+        &::after
+            content: ''
+            position: absolute
+            left: 50%
+            bottom: -9px
+            transform: translateX(-50%) 
+            width: 21px
+            height: 2px
+            background-color: $black
+    &__subtitle
+        font-size: 16px
+        font-weight: normal  
+        text-align: center
+        display: block
+        max-width: 220px  
+        margin: 25px auto 0   
+    &__image
+        background-color: $grey
+        max-width: 358px
+        width: 100%
+        height: 251px
+        img
+            margin: 0 auto
+    &:nth-child(1)
+        .card-block
+            &__image
+                margin-top: 88px
+    &:nth-child(2)
+        .card-block
+            &__image
+                margin-top: 48px
+    &:nth-child(3)
+        .card-block
+            &__image
+                margin-top: 72px
+    &__item
+        position: relative
+        margin-bottom: 106px
+    &__box
+        color: $light
+        font-size: 14px
+        font-weight: 600
+        border-radius: 0 4px 4px 0
+        background-color: $fiolet
+        padding: 12px 20px
+        position: absolute
+        top: 190px
+        left: 0
+    &__bottom
+        padding: 40px 19px 13px
+        +flex-wrap
+        justify-content: space-between
+    &__price
+        font-size: 20px
+        font-weight: 500
+        line-height: 45px
+        color: #a4a4ad
+        margin: -16px -3px 0
+        &-bold
+            display: inline-block
+            color: $black
+            font-weight: bold
+            font-size: 48px
+        &-reg
+            color: $black
+            display: inline-block
+            font-size: 48px
+            font-weight: normal
+        small
+            font-size: 18px
+            margin-left: 6px
+    &__nall
+        font-family: 'Bebas Neue', cursive
+        color: $green
+        font-size: 22px
+        font-weight: bold
+        text-transform: uppercase
+        position: relative
+        padding-right: 62px
+        &::after
+            content: ''
+            position: absolute
+            top: -17px
+            right: 0
+            background: url('../img/checked.png') no-repeat
+            width: 52px
+            height: 52px
+    &__line
+        margin: 0 18px 20px
+        border: 1px dashed $black
+    &__button
+        border: none
+        background-color: transparent
+        display: block
+        margin: 0 auto
+        font-size: 20px
+        color: $black
+        font-weight: bold

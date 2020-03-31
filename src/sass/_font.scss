@@ -52,6 +52,18 @@
 
 @font-face {
     font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BlackItalic.eot');
+    src: local('Montserrat Black Italic'), local('Montserrat-BlackItalic'),
+        url('../fonts/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-BlackItalic.woff') format('woff'),
+        url('../fonts/Montserrat-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
     font-display: swap;
     src: url('../fonts/Montserrat-Medium.eot');
     src: local('Montserrat Medium'), local('Montserrat-Medium'),
@@ -73,6 +85,19 @@
         url('../fonts/BebasNeue-Regular.woff') format('woff'),
         url('../fonts/BebasNeue-Regular.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-display: swap;
+    src: url('../fonts/BebasNeueBold.eot');
+    src: local('BebasNeueBold'),
+        url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueBold.woff2') format('woff2'),
+        url('../fonts/BebasNeueBold.woff') format('woff'),
+        url('../fonts/BebasNeueBold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
 
