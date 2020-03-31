@@ -1,0 +1,71 @@
+.mask
+    display: none
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    z-index: 40
+    background-color: rgba($mask, .9)
+    width: 100%
+    height: 100%
+.modal
+    display: none
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    z-index: 50
+    max-width: 1160px
+    width: 100%
+    padding: 55px 23px 55px 0
+    box-shadow: 13px 23px 40px rgba($black, 0.11);
+    border-radius: 20px
+    border: 1px solid $lightGrey
+    background-color: $light
+    &__close
+        position: absolute
+        top: 20px
+        right: 20px
+        background: url('../img/close.png') no-repeat
+        width: 21px
+        height: 21px
+        border: none
+        background-color: transparent
+    &-slide
+        &__block
+            +flex-wrap
+            justify-content: space-between
+        &__description
+            color: $black
+            margin-top: -4px
+        &__image
+            max-width: 419px
+            width: 100%
+            height: 342px
+        &__title
+            max-width: 500px
+            font-size: 18px
+            line-height: 23px
+            margin: 0 0 25px 0
+        &__text
+            max-width: 675px
+            font-size: 18px
+            line-height: 23px
+            margin: 0 0 18px 0
+    &-arrows
+        &__prev,
+        &__next
+            position: absolute
+            bottom: 38px
+            background-size: cover
+            cursor: pointer
+        &__prev 
+            background: url('../img/prev.png') center no-repeat
+            width: 8px
+            height: 14px
+            left: 37px
+        &__next  
+            background: url('../img/next.png') center no-repeat
+            width: 9px
+            height: 16px
+            left: 86px

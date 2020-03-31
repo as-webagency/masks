@@ -1,0 +1,249 @@
+@media (max-width: 1430px)
+    .header
+        &-side
+            &__image
+                right: -50px
+                background-size: contain
+                max-width: 650px
+@media (max-width: 1280px)
+    .header
+        min-height: 800px
+        &-side
+            &__image
+                max-width: 570px
+                right: 0
+            &__circle
+                right: 0
+    .cards-blocks
+        &__items
+            margin-left: 0
+@media (max-width: 1200px)
+    .modal
+        max-width: 900px
+        &-slide
+            &__text
+                font-size: 16px
+            &__description
+                margin-top: 0
+                max-width: 400px
+@media (max-width: 1120px)
+    .header
+        &-side
+            &__image
+                max-width: 450px
+    .cards-blocks
+        +flex-column-center
+    .card
+        &s
+            &__title
+                margin: 0 0 62px 0  
+        &-block
+            &__item
+                margin-bottom: 35px 
+@media (max-width: 1100px)
+    .footer
+        &-contact
+            &:nth-child(2)
+                margin-right: 0
+@media (max-width: 992px)
+    .header
+        min-height: 740px   
+@media (max-width: 935px) 
+    .modal
+        max-width: 730px
+        &-slide
+            &__image
+                max-width: 320px
+            &__description
+                max-width: 350px
+    .footer
+        &-contact
+            margin: 0 auto !important
+    .header
+        min-height: 650px
+        &-side
+            &__image
+                display: none
+            &__circle
+                top: 100px
+            &__title
+                margin: 50px 0 20px 0               
+@media (max-width: 768px)
+    .modal
+        &-slide
+            &__image
+                display: none
+            &__description
+                max-width: 420px
+                margin: 0 auto
+    .header
+        &-side
+            &__circle
+                top: 150px
+@media (max-width: 630px)  
+    .header
+        &-side
+            &__title
+                font-size: 34px 
+                line-height: normal
+            &__text
+                font-size: 20px
+                margin: 0 0 240px 0
+                line-height: normal
+            &__circle
+                top: 105px
+                right: auto
+                left: 50%
+                transform: translateX(-50%)
+            &__presence
+                display: none  
+            &__accepted
+                z-index: 10
+                font-size: 18px
+                margin: 0 0 20px 0
+                max-width: 280px
+            &__box
+                margin: 0 auto
+                max-width: 320px
+                height: 56px
+                padding: 10px
+                +flex-content-center
+                &-phone
+                    font-size: 28px
+                    &::before
+                        display: none
+@media (max-width: 500px)
+    .address,
+    .telephone
+        font-size: 16px
+        span
+            line-height: normal
+    .telephone
+        a
+            font-size: 20px
+    .footer
+        &-contact
+            padding: 20px 10px 0px
+            margin: 0 !important 
+            img
+                display: none
+@media (max-width: 480px)
+    .modal
+        &-arrows
+            &__prev,
+            &__next
+                bottom: 25px
+        &-slide
+            &__description
+                max-width: 350px
+                overflow-x: scroll
+    .card
+        &s
+            &__title
+                font-size: 24px
+                line-height: normal
+                margin: 50px 0
+    .header
+        &-top
+            padding-top: 25px
+            &__logo
+                margin-left: 0
+        &-side
+            &__title
+                margin: 35px 0 15px 0
+            &__circle
+                top: 135px
+            &__box
+                max-width: 280px
+                &-phone
+                    font-size: 24px
+@media (max-width: 420px)
+    .modal
+        &-slide
+            &__description
+                max-width: 320px
+                overflow-x: scroll
+                height: 460px
+    .footer
+        &__title
+            font-size: 36px
+            margin: 20px 0
+        &__line
+            &--last
+                margin-bottom: 40px
+    .header
+        min-height: 630px
+        &-top
+            +flex-column-center
+            padding-top: 20px
+            &__logo
+                margin-bottom: 20px 
+        &-side
+            &__title
+                font-size: 24px  
+            &__text
+                font-size: 16px
+                margin: 0 0 215px 0
+            &__circle
+                top: 70px 
+            &__accepted
+                text-align: center
+                margin: 0 auto 15px
+                &::after
+                    display: none       
+@media (max-width: 380px)
+    .modal
+        &-slide
+            &__description
+                max-width: 280px
+                overflow-x: scroll
+                height: 360px
+    .card-block
+        padding: 20px 0
+        &:nth-child(1), 
+        &:nth-child(2), 
+        &:nth-child(3) 
+            .card-block
+                &__image
+                    margin-top: 45px
+        &:nth-child(2) 
+            .card-block
+                &__box
+                    top: 167px
+        &:nth-child(3) 
+            .card-block
+                &__box
+                    top: 148px
+        &__box
+            top: 130px
+        &__bottom
+            padding: 25px 15px 0
+        &__price
+            &-bold,
+            &-reg
+                font-size: 38px
+            small
+                margin-left: 0
+        &__title
+            font-size: 18px
+@media (max-width: 347px)
+    .card-block
+        &__image
+            height: 230px
+        &__price
+            &-bold,
+            &-reg
+                font-size: 28px
+    .header
+        &-side
+            &__title
+                text-align: center
+            &__text
+                text-align: center  
+                margin: 0 0 190px 0                  
+                span
+                    display: inline-block
+@media (max-width: 320px)
+    .card-block
+        &__image
+            height: 210px                    
