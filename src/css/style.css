@@ -1374,7 +1374,12 @@ button {
     padding-top: 20px;
   }
   .header-top__logo {
+    margin-right: auto;
     margin-bottom: 20px;
+  }
+  .header-top__contacts {
+    margin-right: auto;
+    margin-left: 50px;
   }
   .header-side__title {
     font-size: 24px;
